@@ -1,4 +1,4 @@
-import { GifGridItem } from "../components/GifGridItem";
+// import { GifGridItem } from "../components/GifGridItem";
 
 export const getGifs = async( category ) => {
 
@@ -13,6 +13,6 @@ export const getGifs = async( category ) => {
             url: img.images?.downsized_medium.url,
         }
     });
-
+    
     return gifs;
 };
